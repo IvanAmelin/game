@@ -64,17 +64,23 @@ img {
 .top-field-border {
     justify-content: flex-start;
 }
+.bot-field-border {
+    position: absolute;
+    top: 150px;
+    left: -50px;
+    opacity: 0.7;
+}
 .field_img {
     width: 100px;
     height: 150px;
 }
 .deck_div {
     position: absolute;
-    top: 200px;
-    left: 650px;
+    top: 350px;
+    left: 643px;
+    transform: rotate(15deg);
+    box-shadow: 10px 5px 5px black;
 }
-.deck_div::before {
-    content: '';
-    background: #671ddd;
-    top: 50px;
+.field_img_deck {
+    width: 100%;
 }
