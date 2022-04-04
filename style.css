@@ -74,13 +74,14 @@ img {
     width: 100px;
     height: 150px;
 }
+.deck {
+    width: 100px;
+    height: 140px;
+}
 .deck_div {
     position: absolute;
     top: 350px;
     left: 643px;
     transform: rotate(15deg);
     box-shadow: 10px 5px 5px black;
-}
-.field_img_deck {
-    width: 100%;
 }
